@@ -1,0 +1,543 @@
+[2024-08-04T22:46:32.079+0300] {processor.py:161} INFO - Started process (PID=869) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:46:32.081+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T22:46:32.093+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:46:32.083+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:46:32.148+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:46:32.455+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:46:32.454+0300] {override.py:1858} INFO - Created Permission View: can delete on DAG:example_complex
+[2024-08-04T22:46:32.479+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:46:32.478+0300] {override.py:1858} INFO - Created Permission View: can edit on DAG:example_complex
+[2024-08-04T22:46:32.505+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:46:32.504+0300] {override.py:1858} INFO - Created Permission View: can read on DAG:example_complex
+[2024-08-04T22:46:32.506+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:46:32.506+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T22:46:32.732+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:46:32.732+0300] {dag.py:3111} INFO - Creating ORM DAG for example_complex
+[2024-08-04T22:46:32.734+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:46:32.733+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T22:46:32.782+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.734 seconds
+[2024-08-04T22:47:38.415+0300] {processor.py:161} INFO - Started process (PID=927) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:47:38.418+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T22:47:38.420+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:47:38.420+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:47:38.440+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:47:38.494+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:47:38.494+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T22:47:38.524+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:47:38.523+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T22:47:38.759+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.354 seconds
+[2024-08-04T22:48:40.100+0300] {processor.py:161} INFO - Started process (PID=979) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:48:40.102+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T22:48:40.104+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:48:40.103+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:48:40.118+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:48:40.154+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:48:40.153+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T22:48:40.169+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:48:40.168+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T22:48:40.212+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.120 seconds
+[2024-08-04T22:49:50.092+0300] {processor.py:161} INFO - Started process (PID=1034) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:49:50.096+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T22:49:50.099+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:49:50.098+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:49:50.177+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:49:50.375+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:49:50.374+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T22:49:50.466+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:49:50.456+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T22:49:50.787+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.729 seconds
+[2024-08-04T22:51:28.424+0300] {processor.py:161} INFO - Started process (PID=1085) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:51:28.425+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T22:51:28.428+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:51:28.428+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:51:28.447+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:51:28.494+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:51:28.493+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T22:51:28.515+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:51:28.514+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T22:51:28.552+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.136 seconds
+[2024-08-04T22:52:28.789+0300] {processor.py:161} INFO - Started process (PID=1138) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:52:28.791+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T22:52:28.793+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:52:28.792+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:52:28.807+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:52:28.850+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:52:28.849+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T22:52:28.867+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:52:28.867+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T22:52:28.900+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.119 seconds
+[2024-08-04T22:53:26.379+0300] {processor.py:161} INFO - Started process (PID=1188) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:53:26.381+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T22:53:26.383+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:53:26.382+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:53:26.401+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:53:26.441+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:53:26.440+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T22:53:26.457+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:53:26.457+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T22:53:26.499+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.131 seconds
+[2024-08-04T22:54:17.888+0300] {processor.py:161} INFO - Started process (PID=1238) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:54:17.889+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T22:54:17.891+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:54:17.891+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:54:17.906+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:54:17.944+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:54:17.943+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T22:54:17.960+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:54:17.959+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T22:54:17.991+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.112 seconds
+[2024-08-04T22:55:42.272+0300] {processor.py:161} INFO - Started process (PID=1310) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:55:42.274+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T22:55:42.276+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:55:42.276+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:55:42.293+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:55:42.336+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:55:42.336+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T22:55:42.352+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:55:42.352+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T22:55:42.382+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.119 seconds
+[2024-08-04T22:56:35.484+0300] {processor.py:161} INFO - Started process (PID=1361) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:56:35.486+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T22:56:35.490+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:56:35.489+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:56:35.516+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:56:35.571+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:56:35.571+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T22:56:35.594+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:56:35.594+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T22:56:35.645+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.172 seconds
+[2024-08-04T22:57:51.024+0300] {processor.py:161} INFO - Started process (PID=1431) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:57:51.026+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T22:57:51.029+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:57:51.028+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:57:51.047+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:57:51.092+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:57:51.091+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T22:57:51.120+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:57:51.120+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T22:57:51.172+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.157 seconds
+[2024-08-04T22:58:45.084+0300] {processor.py:161} INFO - Started process (PID=1479) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:58:45.086+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T22:58:45.088+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:58:45.087+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:58:45.103+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:58:45.157+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:58:45.157+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T22:58:45.183+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:58:45.183+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T22:58:45.229+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.154 seconds
+[2024-08-04T22:59:39.574+0300] {processor.py:161} INFO - Started process (PID=1528) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:59:39.576+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T22:59:39.579+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:59:39.579+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:59:39.601+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T22:59:39.643+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:59:39.642+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T22:59:39.658+0300] {logging_mixin.py:188} INFO - [2024-08-04T22:59:39.657+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T22:59:39.689+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.125 seconds
+[2024-08-04T23:00:33.493+0300] {processor.py:161} INFO - Started process (PID=1577) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:00:33.495+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:00:33.499+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:00:33.498+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:00:33.529+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:00:33.652+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:00:33.651+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:00:33.707+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:00:33.707+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:00:33.792+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.313 seconds
+[2024-08-04T23:01:37.664+0300] {processor.py:161} INFO - Started process (PID=1628) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:01:37.666+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:01:37.668+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:01:37.668+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:01:37.683+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:01:37.723+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:01:37.723+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:01:37.739+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:01:37.739+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:01:37.826+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.171 seconds
+[2024-08-04T23:02:39.336+0300] {processor.py:161} INFO - Started process (PID=1681) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:02:39.338+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:02:39.341+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:02:39.340+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:02:39.358+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:02:39.398+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:02:39.398+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:02:39.415+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:02:39.415+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:02:39.449+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.121 seconds
+[2024-08-04T23:03:40.243+0300] {processor.py:161} INFO - Started process (PID=1733) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:03:40.246+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:03:40.248+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:03:40.247+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:03:40.267+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:03:40.306+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:03:40.306+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:03:40.322+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:03:40.322+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:03:40.367+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.138 seconds
+[2024-08-04T23:04:38.391+0300] {processor.py:161} INFO - Started process (PID=1783) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:04:38.424+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:04:38.428+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:04:38.427+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:04:38.500+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:04:38.736+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:04:38.735+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:04:38.819+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:04:38.819+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:04:39.525+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 1.168 seconds
+[2024-08-04T23:06:21.198+0300] {processor.py:161} INFO - Started process (PID=1843) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:06:21.232+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:06:21.236+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:06:21.235+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:06:21.314+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:06:21.507+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:06:21.506+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:06:21.585+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:06:21.574+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:06:22.563+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 1.396 seconds
+[2024-08-04T23:08:00.199+0300] {processor.py:161} INFO - Started process (PID=1910) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:08:00.200+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:08:00.204+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:08:00.204+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:08:00.253+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:08:00.387+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:08:00.386+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:08:00.422+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:08:00.421+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:08:00.460+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.272 seconds
+[2024-08-04T23:08:59.112+0300] {processor.py:161} INFO - Started process (PID=1962) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:08:59.115+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:08:59.119+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:08:59.118+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:08:59.151+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:08:59.208+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:08:59.207+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:08:59.230+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:08:59.230+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:08:59.271+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.169 seconds
+[2024-08-04T23:09:52.368+0300] {processor.py:161} INFO - Started process (PID=2012) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:09:52.371+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:09:52.373+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:09:52.372+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:09:52.388+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:09:52.424+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:09:52.424+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:09:52.439+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:09:52.439+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:09:52.472+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.111 seconds
+[2024-08-04T23:10:55.345+0300] {processor.py:161} INFO - Started process (PID=2062) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:10:55.348+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:10:55.354+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:10:55.352+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:10:55.414+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:10:55.545+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:10:55.545+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:10:55.599+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:10:55.598+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:10:55.783+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.458 seconds
+[2024-08-04T23:12:13.109+0300] {processor.py:161} INFO - Started process (PID=2118) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:12:13.118+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:12:13.120+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:12:13.120+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:12:13.143+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:12:13.215+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:12:13.210+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:12:13.274+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:12:13.273+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:12:13.345+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.249 seconds
+[2024-08-04T23:13:29.116+0300] {processor.py:161} INFO - Started process (PID=2177) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:13:29.118+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:13:29.120+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:13:29.120+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:13:29.141+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:13:29.198+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:13:29.197+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:13:29.224+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:13:29.224+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:13:29.272+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.164 seconds
+[2024-08-04T23:14:35.065+0300] {processor.py:161} INFO - Started process (PID=2231) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:14:35.071+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:14:35.074+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:14:35.073+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:14:35.128+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:14:35.288+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:14:35.288+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:14:35.370+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:14:35.369+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:14:35.482+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.433 seconds
+[2024-08-04T23:15:39.280+0300] {processor.py:161} INFO - Started process (PID=2284) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:15:39.283+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:15:39.288+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:15:39.287+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:15:39.308+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:15:39.368+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:15:39.368+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:15:39.388+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:15:39.388+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:15:39.441+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.178 seconds
+[2024-08-04T23:16:40.464+0300] {processor.py:161} INFO - Started process (PID=2336) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:16:40.466+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:16:40.469+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:16:40.468+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:16:40.487+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:16:40.539+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:16:40.538+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:16:40.563+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:16:40.563+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:16:40.611+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.158 seconds
+[2024-08-04T23:17:37.216+0300] {processor.py:161} INFO - Started process (PID=2389) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:17:37.218+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:17:37.220+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:17:37.219+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:17:37.234+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:17:37.270+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:17:37.270+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:17:37.285+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:17:37.284+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:17:37.316+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.108 seconds
+[2024-08-04T23:19:17.737+0300] {processor.py:161} INFO - Started process (PID=2451) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:19:17.788+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:19:17.792+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:19:17.791+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:19:17.858+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:19:18.039+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:19:18.039+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:19:18.138+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:19:18.137+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:19:19.213+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 1.509 seconds
+[2024-08-04T23:20:29.357+0300] {processor.py:161} INFO - Started process (PID=2507) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:20:29.376+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:20:29.379+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:20:29.378+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:20:29.439+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:20:29.618+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:20:29.617+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:20:29.667+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:20:29.663+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:20:29.864+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.525 seconds
+[2024-08-04T23:21:24.048+0300] {processor.py:161} INFO - Started process (PID=2558) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:21:24.052+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:21:24.055+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:21:24.054+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:21:24.076+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:21:24.124+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:21:24.124+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:21:24.164+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:21:24.163+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:21:24.261+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.223 seconds
+[2024-08-04T23:22:20.780+0300] {processor.py:161} INFO - Started process (PID=2610) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:22:20.783+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:22:20.786+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:22:20.785+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:22:20.835+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:22:20.886+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:22:20.886+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:22:20.905+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:22:20.904+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:22:20.949+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.177 seconds
+[2024-08-04T23:23:18.232+0300] {processor.py:161} INFO - Started process (PID=2659) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:23:18.236+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:23:18.239+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:23:18.238+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:23:18.263+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:23:18.302+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:23:18.301+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:23:18.317+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:23:18.317+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:23:18.352+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.134 seconds
+[2024-08-04T23:24:13.221+0300] {processor.py:161} INFO - Started process (PID=2710) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:24:13.223+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:24:13.226+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:24:13.225+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:24:13.240+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:24:13.277+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:24:13.277+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:24:13.292+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:24:13.292+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:24:13.323+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.110 seconds
+[2024-08-04T23:25:22.546+0300] {processor.py:161} INFO - Started process (PID=2776) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:25:22.548+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:25:22.550+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:25:22.550+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:25:22.566+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:25:22.604+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:25:22.603+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:25:22.619+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:25:22.619+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:25:22.659+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.121 seconds
+[2024-08-04T23:26:41.333+0300] {processor.py:161} INFO - Started process (PID=2846) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:26:41.334+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:26:41.337+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:26:41.336+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:26:41.357+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:26:41.448+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:26:41.447+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:26:41.475+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:26:41.474+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:26:41.707+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.384 seconds
+[2024-08-04T23:27:43.163+0300] {processor.py:161} INFO - Started process (PID=2923) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:27:43.165+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:27:43.168+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:27:43.167+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:27:43.191+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:27:43.241+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:27:43.240+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:27:43.278+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:27:43.277+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:27:43.345+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.204 seconds
+[2024-08-04T23:28:37.965+0300] {processor.py:161} INFO - Started process (PID=2974) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:28:37.966+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:28:37.969+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:28:37.968+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:28:37.984+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:28:38.021+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:28:38.020+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:28:38.037+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:28:38.036+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:28:38.074+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.119 seconds
+[2024-08-04T23:29:30.981+0300] {processor.py:161} INFO - Started process (PID=3023) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:29:30.983+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:29:30.985+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:29:30.985+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:29:30.999+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:29:31.036+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:29:31.035+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:29:31.051+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:29:31.051+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:29:31.085+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.111 seconds
+[2024-08-04T23:30:26.038+0300] {processor.py:161} INFO - Started process (PID=3076) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:30:26.039+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:30:26.042+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:30:26.041+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:30:26.059+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:30:26.099+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:30:26.098+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:30:26.118+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:30:26.118+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:30:26.149+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.120 seconds
+[2024-08-04T23:31:20.221+0300] {processor.py:161} INFO - Started process (PID=3127) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:31:20.222+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:31:20.224+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:31:20.224+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:31:20.240+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:31:20.276+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:31:20.275+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:31:20.291+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:31:20.290+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:31:20.389+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.176 seconds
+[2024-08-04T23:32:38.780+0300] {processor.py:161} INFO - Started process (PID=3205) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:32:38.788+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:32:38.790+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:32:38.790+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:32:38.805+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:32:38.846+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:32:38.846+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:32:38.867+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:32:38.867+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:32:38.900+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.129 seconds
+[2024-08-04T23:33:36.117+0300] {processor.py:161} INFO - Started process (PID=3255) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:33:36.119+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:33:36.123+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:33:36.122+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:33:36.156+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:33:36.222+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:33:36.221+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:33:36.243+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:33:36.243+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:33:36.314+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.214 seconds
+[2024-08-04T23:34:28.741+0300] {processor.py:161} INFO - Started process (PID=3308) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:34:28.743+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:34:28.745+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:34:28.745+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:34:28.759+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:34:28.803+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:34:28.803+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:34:28.821+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:34:28.820+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:34:28.858+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.125 seconds
+[2024-08-04T23:35:41.074+0300] {processor.py:161} INFO - Started process (PID=3376) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:35:41.078+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:35:41.082+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:35:41.082+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:35:41.098+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:35:41.147+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:35:41.147+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:35:41.169+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:35:41.168+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:35:41.208+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.144 seconds
+[2024-08-04T23:36:53.754+0300] {processor.py:161} INFO - Started process (PID=3448) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:36:53.756+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:36:53.758+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:36:53.758+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:36:53.779+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:36:53.815+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:36:53.815+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:36:53.832+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:36:53.831+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:36:53.864+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.118 seconds
+[2024-08-04T23:38:07.909+0300] {processor.py:161} INFO - Started process (PID=3518) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:38:07.911+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:38:07.913+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:38:07.912+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:38:07.929+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:38:07.968+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:38:07.968+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:38:07.983+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:38:07.983+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:38:08.016+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2024-08-04T23:39:20.173+0300] {processor.py:161} INFO - Started process (PID=3588) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:39:20.175+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:39:20.177+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:39:20.177+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:39:20.191+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:39:20.227+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:39:20.226+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:39:20.242+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:39:20.242+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:39:20.273+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.108 seconds
+[2024-08-04T23:40:33.030+0300] {processor.py:161} INFO - Started process (PID=3656) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:40:33.031+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:40:33.033+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:40:33.033+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:40:33.048+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:40:33.085+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:40:33.085+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:40:33.101+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:40:33.100+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:40:33.134+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.118 seconds
+[2024-08-04T23:41:42.411+0300] {processor.py:161} INFO - Started process (PID=3723) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:41:42.413+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:41:42.415+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:41:42.414+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:41:42.435+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:41:42.471+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:41:42.470+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:41:42.486+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:41:42.486+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:41:42.518+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.115 seconds
+[2024-08-04T23:42:43.566+0300] {processor.py:161} INFO - Started process (PID=3773) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:42:43.568+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:42:43.570+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:42:43.569+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:42:43.584+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:42:43.623+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:42:43.622+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:42:43.638+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:42:43.638+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:42:43.668+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.111 seconds
+[2024-08-04T23:43:51.396+0300] {processor.py:161} INFO - Started process (PID=3839) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:43:51.397+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:43:51.399+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:43:51.399+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:43:51.414+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:43:51.451+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:43:51.450+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:43:51.467+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:43:51.467+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:43:51.498+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.111 seconds
+[2024-08-04T23:45:00.562+0300] {processor.py:161} INFO - Started process (PID=3905) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:45:00.564+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:45:00.566+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:45:00.565+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:45:00.580+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:45:00.617+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:45:00.616+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:45:00.633+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:45:00.632+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:45:00.665+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.110 seconds
+[2024-08-04T23:45:52.951+0300] {processor.py:161} INFO - Started process (PID=3956) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:45:52.953+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:45:52.957+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:45:52.957+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:45:52.985+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:45:53.045+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:45:53.045+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:45:53.061+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:45:53.061+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:45:53.101+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.163 seconds
+[2024-08-04T23:47:03.544+0300] {processor.py:161} INFO - Started process (PID=4023) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:47:03.557+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:47:03.561+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:47:03.560+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:47:03.659+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:47:03.811+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:47:03.810+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:47:03.837+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:47:03.837+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:47:03.953+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.445 seconds
+[2024-08-04T23:48:15.730+0300] {processor.py:161} INFO - Started process (PID=4091) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:48:15.732+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:48:15.734+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:48:15.733+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:48:15.749+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:48:15.786+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:48:15.785+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:48:15.802+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:48:15.802+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:48:15.835+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.114 seconds
+[2024-08-04T23:49:26.470+0300] {processor.py:161} INFO - Started process (PID=4159) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:49:26.472+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:49:26.474+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:49:26.473+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:49:26.489+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:49:26.525+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:49:26.524+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:49:26.540+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:49:26.540+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:49:26.571+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.109 seconds
+[2024-08-04T23:50:35.872+0300] {processor.py:161} INFO - Started process (PID=4226) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:50:35.874+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:50:35.876+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:50:35.875+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:50:35.890+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:50:35.926+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:50:35.925+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:50:35.942+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:50:35.941+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:50:35.973+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.109 seconds
+[2024-08-04T23:51:45.468+0300] {processor.py:161} INFO - Started process (PID=4293) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:51:45.469+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:51:45.471+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:51:45.471+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:51:45.485+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:51:45.522+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:51:45.521+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:51:45.538+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:51:45.538+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:51:45.579+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.119 seconds
+[2024-08-04T23:53:00.185+0300] {processor.py:161} INFO - Started process (PID=4363) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:53:00.186+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:53:00.189+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:53:00.188+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:53:00.204+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:53:00.239+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:53:00.239+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:53:00.255+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:53:00.254+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:53:00.286+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.109 seconds
+[2024-08-04T23:54:05.441+0300] {processor.py:161} INFO - Started process (PID=4428) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:54:05.443+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:54:05.445+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:54:05.444+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:54:05.459+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:54:05.498+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:54:05.497+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:54:05.515+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:54:05.515+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:54:05.546+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.113 seconds
+[2024-08-04T23:55:16.045+0300] {processor.py:161} INFO - Started process (PID=4495) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:55:16.046+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:55:16.048+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:55:16.048+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:55:16.063+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:55:16.099+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:55:16.098+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:55:16.115+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:55:16.114+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:55:16.150+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.113 seconds
+[2024-08-04T23:56:25.424+0300] {processor.py:161} INFO - Started process (PID=4562) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:56:25.426+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:56:25.428+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:56:25.428+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:56:25.443+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:56:25.478+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:56:25.478+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:56:25.495+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:56:25.494+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:56:25.528+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.112 seconds
+[2024-08-04T23:57:37.058+0300] {processor.py:161} INFO - Started process (PID=4627) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:57:37.060+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:57:37.063+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:57:37.062+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:57:37.097+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:57:37.145+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:57:37.144+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:57:37.167+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:57:37.167+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:57:37.207+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.159 seconds
+[2024-08-04T23:58:29.087+0300] {processor.py:161} INFO - Started process (PID=4676) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:58:29.089+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:58:29.091+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:58:29.091+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:58:29.106+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:58:29.141+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:58:29.141+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:58:29.156+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:58:29.155+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:58:29.190+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.111 seconds
+[2024-08-04T23:59:38.940+0300] {processor.py:161} INFO - Started process (PID=4744) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:59:38.942+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-04T23:59:38.944+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:59:38.943+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:59:38.958+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-04T23:59:38.994+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:59:38.994+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-04T23:59:39.010+0300] {logging_mixin.py:188} INFO - [2024-08-04T23:59:39.010+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-04T23:59:39.051+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.119 seconds
+[2024-08-05T00:00:32.618+0300] {processor.py:161} INFO - Started process (PID=4791) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:00:32.623+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-05T00:00:32.627+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:00:32.626+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:00:32.670+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:00:32.823+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:00:32.823+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-05T00:00:32.866+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:00:32.866+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-05T00:00:32.923+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.338 seconds
+[2024-08-05T00:01:29.789+0300] {processor.py:161} INFO - Started process (PID=4897) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:01:29.791+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-05T00:01:29.794+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:01:29.793+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:01:29.818+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:01:29.863+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:01:29.863+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-05T00:01:29.879+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:01:29.879+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-05T00:01:29.911+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.135 seconds
+[2024-08-05T00:02:23.305+0300] {processor.py:161} INFO - Started process (PID=4944) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:02:23.307+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-05T00:02:23.310+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:02:23.310+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:02:23.326+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:02:23.366+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:02:23.366+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-05T00:02:23.382+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:02:23.382+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-05T00:02:23.426+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.132 seconds
+[2024-08-05T00:03:18.006+0300] {processor.py:161} INFO - Started process (PID=4995) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:03:18.008+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-05T00:03:18.010+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:03:18.010+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:03:18.030+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:03:18.066+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:03:18.066+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-05T00:03:18.083+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:03:18.083+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-05T00:03:18.220+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.223 seconds
+[2024-08-05T00:04:31.007+0300] {processor.py:161} INFO - Started process (PID=5065) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:04:31.009+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-05T00:04:31.011+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:04:31.010+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:04:31.026+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:04:31.062+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:04:31.062+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-05T00:04:31.178+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:04:31.178+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-05T00:04:31.208+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.209 seconds
+[2024-08-05T00:05:25.487+0300] {processor.py:161} INFO - Started process (PID=5113) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:05:25.488+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-05T00:05:25.491+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:05:25.490+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:05:25.513+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:05:25.573+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:05:25.573+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-05T00:05:25.590+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:05:25.590+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-05T00:05:25.628+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.151 seconds
+[2024-08-05T00:06:21.973+0300] {processor.py:161} INFO - Started process (PID=5169) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:06:21.975+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-05T00:06:21.977+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:06:21.977+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:06:21.992+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:06:22.027+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:06:22.027+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-05T00:06:22.043+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:06:22.043+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-05T00:06:22.077+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.112 seconds
+[2024-08-05T00:07:19.430+0300] {processor.py:161} INFO - Started process (PID=5218) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:07:19.431+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-05T00:07:19.433+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:07:19.433+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:07:19.448+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:07:19.486+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:07:19.486+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-05T00:07:19.503+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:07:19.502+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-05T00:07:19.538+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.117 seconds
+[2024-08-05T00:08:14.568+0300] {processor.py:161} INFO - Started process (PID=5272) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:08:14.570+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-05T00:08:14.572+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:08:14.572+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:08:14.587+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:08:14.725+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:08:14.724+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-05T00:08:14.738+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:08:14.738+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-05T00:08:14.767+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.206 seconds
+[2024-08-05T00:09:12.807+0300] {processor.py:161} INFO - Started process (PID=5322) to work on /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:09:12.809+0300] {processor.py:830} INFO - Processing file /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-08-05T00:09:12.811+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:09:12.811+0300] {dagbag.py:545} INFO - Filling up the DagBag from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:09:12.832+0300] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2024-08-05T00:09:12.883+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:09:12.883+0300] {dag.py:3089} INFO - Sync 1 DAGs
+[2024-08-05T00:09:12.906+0300] {logging_mixin.py:188} INFO - [2024-08-05T00:09:12.905+0300] {dag.py:3947} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-08-05T00:09:12.941+0300] {processor.py:183} INFO - Processing /home/grigory/airflow_venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.146 seconds
