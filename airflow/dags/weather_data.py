@@ -14,11 +14,13 @@ def download_data():
     city = 'London'
     url = f'http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}'
     response = requests.get(url)  # Выполняем запрос к API
-    #data = response.json()  # Преобразуем ответ в формат JSON
+
+    # Преобразуем ответ в формат JSON
+    data = response.json()
 
     # Сохраняем данные в локальный файл
     with open('/tmp/weather_data.json', 'w') as file:
-        json.dump(response.content, file)
+        json.dump(data, file, indent=4)  # Сохраняем объект Python в формате JSON
 
 
 # Функция для обработки данных
